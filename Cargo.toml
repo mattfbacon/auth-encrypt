@@ -1,5 +1,7 @@
 [package]
 name = "auth-encrypt"
+description = "Allows accessing encrypted files over the web by decrypting them through `openssl`."
+repository = "https://git.matt.felle.nz/matt/auth-encrypt"
 version = "0.1.0"
 edition = "2021"
 license = "AGPL-3.0-or-later"

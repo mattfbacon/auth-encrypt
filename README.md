@@ -1,6 +1,6 @@
 # Auth Encrypt
 
-Allows accessing encrypted files by decrypting them through `openssl`.
+Allows accessing encrypted files over the web by decrypting them through `openssl`.
 
 The cipher used is ChaCha2 with PBKDF2, where the key is the base-64 encoding of the username and password joined by a colon (the value of the token for HTTP basic authentication).
 Here's how to encrypt a file such that it can be decrypted by the server:
