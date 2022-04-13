@@ -1,0 +1,12 @@
+[package]
+name = "auth-encrypt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = { version = "4", features = [] }
+anyhow = "1"
+base64 = "0.13"
+log = "0.4"
+simple_logger = "2"
+tokio = "1"
